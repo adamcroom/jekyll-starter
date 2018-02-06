@@ -1,86 +1,47 @@
-# Jekyll Quick Starter Template / Scaffold - Build Your Own (Gem-Packaged) Theme
+# $name$
 
-Use like:
+Welcome to your new Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes` and your sass in `_sass`. To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
 
-```
-$ quik new jekyll-theme
-```
+TODO: Delete this and the text above, and describe your gem
 
-This will download and run
-the [`jekyll-theme.rb`](https://github.com/quikstart/scripts/blob/master/jekyll-theme.rb)
-quik starter wizard script. Resulting in:
+## Installation
 
-```
-Hello from the jekyll theme quick starter wizard script
+Add this line to your Jekyll site's Gemfile:
 
-Q: Name of the theme? [hola]: hola
-
-Thanks! Ready-to-go. Stand back.
-
-  Downloading Jekyll Theme Starter Template...
-  Setting up Jekyll Theme Starter Template...
-  ...
-  Merging templates...
-    name:   "hola"
-    ...
-Done.
+```ruby
+gem "$name$"
 ```
 
-Resulting in:
+And add this line to your Jekyll site's `_config.yml`:
 
-```
-hola
-├───assets/
-│   └── .keep
-├───_includes/
-│   └── .keep
-├───_layouts/
-│   ├── default.html
-│   ├── page.html
-│   └── post.html
-├───_sass/
-│   └── .keep
-│   .gitignore
-│   Gemfile
-│   hola.gemspec
-│   LICENSE.txt
-└── README.md
-
+```yaml
+theme: $name$
 ```
 
-That's it.
+And then execute:
 
+    $ bundle
 
-## More (Alternative) Quick Starter Templates / Scripts
+Or install it yourself as:
 
-See the [Quik Scripts](https://github.com/quikstart/scripts) library or try:
+    $ gem install $name$
 
-```
-$ quik ls
-```
+## Usage
 
-to list all "official" registered quick starter templates / scripts.
+TODO: Write usage instructions here. Describe your available layouts, includes, and/or sass.
 
+## Contributing
 
-## Questions? Comments?
+Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-Send them along to the ruby-talk mailing list.
-Thanks!
+## Development
 
+To set up your environment to develop this theme, run `bundle install`.
 
----
+You theme is setup just like a normal Jelyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
 
-## TODOs
+When your theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
 
-Use git settings for user.name and user.email e.g.
+## License
 
-in `$filename$.gemspec`:
-
-```
-  spec.authors       = ["Otto Maximal"]
-  spec.email         = ["otto.maximal@example.com"]
-```
-
-### Dev Notes
-
-For now $name$ and $filename$ is the same e.g. hola == hola etc.
+The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
