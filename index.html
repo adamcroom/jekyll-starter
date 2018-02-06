@@ -37,6 +37,28 @@
             <ul class="projects">
                 <li>Say hello: <a href="mailto:&#115;&#109;&#046;&#115;&#099;&#104;&#111;&#103;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">&#115;&#109;&#046;&#115;&#099;&#104;&#111;&#103;&#101;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
             </ul>
+
+            <div class="projects-title">Recent Posts</div>
+            <div class="line-seperator"></div>
+            <ul class="projects">
+              <div class="blog-posts">
+                {% for post in site.posts %}
+                  <div class="blog-post spacing">
+                    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                    <p class="summary">
+                      {{ post.category }}
+                      <span class="date">
+                        {{ post.date | date: '%B %d, %Y' }}
+                      </span>
+                    </p>
+                    {{ post.excerpt }}
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            </ul>
+
+
             <div class="projects-title">Recent Projects</div>
             <div class="line-seperator"></div>
             <ul class="projects">
