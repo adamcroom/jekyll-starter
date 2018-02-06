@@ -4,6 +4,22 @@ body {
   background: #f7f7f7;
   font-size: 16px; }
 
+.font-size-sm {
+    font-size: .875rem;
+}
+
+.font-sans {
+    font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+.font-bold {
+    font-weight: 600;
+}
+
+.text-gray-lighter {
+    color: #8b9198;
+}
+
 .main-wrapper {
       box-shadow: inset 0 -20px 0 #fff, inset 20px 0 0 #fff, inset -20px 0 0 #fff;
       min-height: 100vh;
@@ -11,7 +27,7 @@ body {
 
 .container {
   max-width: 420px;
-  padding: 40px 60px 60px 60px; }
+  padding: 4rem 2rem 6rem 18%; }
 
 .top-border {
   box-shadow: inset 0 20px 0 #fff;
