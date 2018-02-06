@@ -4,21 +4,7 @@ body {
   background: #f7f7f7;
   font-size: 16px; }
 
-.font-size-sm {
-    font-size: .875rem;
-}
 
-.font-sans {
-    font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-}
-
-.font-bold {
-    font-weight: 600;
-}
-
-.text-gray-lighter {
-    color: #8b9198;
-}
 
 .main-wrapper {
       box-shadow: inset 0 -20px 0 #fff, inset 20px 0 0 #fff, inset -20px 0 0 #fff;
@@ -50,6 +36,22 @@ p {
   color: #6a6f75;
   margin-bottom: 24px;
   font-weight: 400; }
+
+  p.font-size-sm {
+      font-size: .875rem;
+  }
+
+  p.font-sans {
+      font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  }
+
+  p.font-bold {
+      font-weight: 600;
+  }
+
+  p.text-gray-lighter {
+      color: #8b9198;
+  }
 
 a {
   color: #4483D9;
