@@ -28,32 +28,15 @@ body {
 }
 
 h1 {
-    font-family: 'ITC Franklin Gothic LT W01 Dm', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    font-size: 40px;
-    line-height: 1.15em;
-    color: rgba(0, 0, 0, .8);
-}
-
-h1.text-gray-dark {
-    color: #2a2d31;
-}
-
-h1.font-normal {
+  font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+  color: #2a2d31;
     font-weight: 400;
-}
-
-h1.font-sans {
-    font-family: acumin-pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
-}
-
-h1.font-size-jumbo {
-    font-size: 2rem;
     line-height: 1.2em;
-}
-
-h1.m-xs-b-6 {
+    color: rgba(0, 0, 0, .8);
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
+
 
 p,
 li,
