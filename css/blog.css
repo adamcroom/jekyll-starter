@@ -43,9 +43,9 @@ h1 {
 p,
 li,
 em {
-    font-family: 'Roboto',;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: rgba(0, 0, 0, .7);
-    font-size: 22px;
     line-height: 1.5em;
 }
 
