@@ -1,3 +1,5 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
 body {
     background: #f7f7f7;
     font-size: 16px;
@@ -41,7 +43,7 @@ h1 {
 p,
 li,
 em {
-    font-family: 'FreightText W01 Book', serif;
+    font-family: 'Roboto', serif;
     color: rgba(0, 0, 0, .7);
     font-size: 22px;
     line-height: 1.5em;
