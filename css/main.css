@@ -33,6 +33,7 @@ ul.projects svg {
   margin-left: 8px; }
 
 p {
+  font-family: 'Roboto', sans-serif;
   color: #6a6f75;
   margin-bottom: 24px;
   font-weight: 400; }
@@ -54,6 +55,7 @@ p {
   }
 
 a {
+  font-family: 'Roboto', sans-serif;
   color: #4483D9;
   text-decoration: none;
   font-weight: 400; }
