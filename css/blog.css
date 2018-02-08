@@ -1,5 +1,3 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
 body {
     background: #f7f7f7;
     font-size: 16px;
@@ -12,7 +10,7 @@ body {
 }
 
 .container {
-    padding: 80px 34px 80px 34px;
+    padding: 80px 34px 10px 34px;
 }
 
 .top-border {
@@ -45,9 +43,9 @@ li,
 em {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 1.125rem
     color: rgba(0, 0, 0, .5);
-    line-height: 1.8em;
+    line-height: 1.9em;
+    padding: 0px 34px 34px 34px;
 }
 h1,
 p,
