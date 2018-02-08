@@ -47,6 +47,17 @@ em {
     line-height: 1.9em;
     padding: 0px 34px 34px 34px;
 }
+
+blockquote {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+
+}
+
+
+
+
 h1,
 p,
 li,
