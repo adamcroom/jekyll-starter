@@ -45,27 +45,18 @@ em {
     font-weight: 400;
     color: rgba(0, 0, 0, .5);
     line-height: 1.9em;
-    padding: 0px 34px 34px 34px;
+        margin: 0 auto .75em auto;
+        padding: 10px;
+
 }
 
 blockquote {
-    font-size: 18px;
     font-style: italic;
-    text-align: center;
+    border-left: 2px solid #ccc;
+
 
 }
 
-
-
-
-h1,
-p,
-li,
-ul,
-.article-time {
-    max-width: 640px;
-    margin: 0 auto .75em auto;
-}
 
 .blog-container {
     max-width: 640px;
