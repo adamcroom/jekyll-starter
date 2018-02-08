@@ -47,7 +47,7 @@ title: Welcome
             <div class="projects-title">Recent Posts</div>
             <div class="line-seperator"></div>
             <ul class="projects">
-              {% for post in site.posts  %}
+              {% for post in site.posts  % limit:5}
                   {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
                   {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
