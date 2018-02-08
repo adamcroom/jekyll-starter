@@ -52,17 +52,17 @@ title: Welcome
 
                       <li class="c-archives__item">
                           <h3>
-                            <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>{{ post.date | date: "%b %-d, %Y" }}
+                            <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a> | {{ post.date | date: "%b %-d, %Y" }}
                             <br>
                             <small>{{post.description}}</small>
                           </h3>
-                          <p class="font-size-sm font-sans font-bold text-gray-lighter"></p>
                       </li>
                   {% if forloop.last %}
                       </ul>
 
                   {% endif %}
               {% endfor %}
+              <p>Find more in the <a href="blog.html">archive</a>.</p>
             </ul>
 
 
